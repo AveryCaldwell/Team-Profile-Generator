@@ -53,7 +53,7 @@ THEN I exit the application, and the HTML is generated
 
 ### Screenshot 📷
 ​
-![](./readme-assets/solution.png)
+![](./TBD)
 ​
 ​
 ### Links 🔎
