@@ -1,4 +1,3 @@
-//  template helper code
 // create team
 // create the manager htm
 // create the html for engineers
