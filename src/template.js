@@ -4,8 +4,61 @@
 // create the html for interns
 
 //generates the HTML
+
+/*
+Data Object Schema:
+data: [
+        {
+            name:string,
+            id:int,
+            email:string,
+            github: string,
+            officeNumber:string,
+            school: string,
+        }
+    ]
+
+*/
+
+function generateTeamCard(teamMember) {
+    let lineItem;
+    switch (teamMember.getRole()) {
+        case 'Manager':
+            lineItem = `<li class="list-group-item">Office Number: ${teamMember.getOfficeNumber()}</li>`;
+            break;
+        case 'Engineer':
+            lineItem = `<li class="list-group-item">GitHub: ${teamMember.getGithub()}</li>`;
+            break;
+        case 'Intern':
+            lineItem = `<li class="list-group-item">School: ${teamMember.getSchool()}</li>`;
+            break;
+        default:
+            lineItem = '';
+            break;
+    }
+    return `
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <div class="header">
+                        <h5 class="card-title">${teamMember.getName()}</h5>
+                        <p class="card-text">${teamMember.getRole()}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">ID: ${teamMember.getId()}</li>
+                        <li class="list-group-item">Email: ${teamMember.getEmail()}</li>
+                        ${lineItem}
+                    </ul>
+                </div>
+            </div>
+        </div>`;
+}
 function generateTeam(data) {
-  return `
+    let teamArray = [];
+    for (let i = 0; i < data.length; i++) {
+        teamArray.push(generateTeamCard(data[i]));
+    }
+    return `
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +67,7 @@ function generateTeam(data) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Generator</title>
-    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,98 +82,12 @@ function generateTeam(data) {
     </header>
 
     <!-- Card Section -->
-    <!-- CARD ONE -->
     <div class="card-group row-cols-md-3">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <div class="header">
-                        <h5 class="card-title">Name</h5>
-                        <p class="card-text">Job Position</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- CARD 2 -->
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <div class="header">
-                        <h5 class="card-title">Name</h5>
-                        <p class="card-text">Job Position</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- CARD 3 -->
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <div class="header">
-                        <h5 class="card-title">Name</h5>
-                        <p class="card-text">Job Position</p>
-                    </div>
-
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- CARD 4 -->
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <div class="header">
-                        <h5 class="card-title">Name</h5>
-                        <p class="card-text">Job Position</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- CARD 5 -->
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <div class="header">
-                        <h5 class="card-title">Name</h5>
-                        <p class="card-text">Job Position</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">ID: </li>
-                        <li class="list-group-item">Email: </li>
-                        <li class="list-group-item">Office Number: </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        ${teamArray.toString()}
     </div>
 </body>
 
 </html>
-    
-    
-    
-    
-    
-    
-    
-    `;
+`;
 }
+module.exports = generateTeam;
