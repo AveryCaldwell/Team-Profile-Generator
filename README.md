@@ -1,4 +1,4 @@
-# Team Profile Generator 💻 
+# Team Profile Generator 📋
 
 <br>
 
@@ -16,7 +16,7 @@
 <hr>
 <br>
 
-# Overview
+# Overview 📁
 
 ## **The Challenge**
 
@@ -56,7 +56,7 @@ THEN I exit the application, and the HTML is generated
 ![](./TBD)
 ​
 ​
-### Links 🔎
+### Links 📎
 ​
 - Solution URL: [https://github.com/AveryCaldwell/Team-Profile-Generator](https://github.com/AveryCaldwell/Team-Profile-Generator)
 - Video URL: [TBD](TBD)
@@ -80,9 +80,9 @@ THEN I exit the application, and the HTML is generated
 
 ### Useful resources 📚
 
-- About Jest - [https://www.softwaretestinghelp.com/jest-testing-tutorial/](https://www.softwaretestinghelp.com/jest-testing-tutorial/)  
 - Inquirer Package - [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 - Jest Package - [Jest package](https://www.npmjs.com/package/jest) 
+- Emojis - [Emojis](https://github.com/ikatyang/emoji-cheat-sheet)
 
 
 
