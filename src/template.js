@@ -27,7 +27,7 @@ function generateTeamCard(teamMember) {
             lineItem = `<li class="list-group-item">Office Number: ${teamMember.getOfficeNumber()}</li>`;
             break;
         case 'Engineer':
-            lineItem = `<li class="list-group-item">GitHub: ${teamMember.getGithub()}</li>`;
+            lineItem = `<li class="list-group-item">GitHub:<a href="www.github.com/${teamMember.getGithub()}"> ${teamMember.getGithub()}</a></li>`;
             break;
         case 'Intern':
             lineItem = `<li class="list-group-item">School: ${teamMember.getSchool()}</li>`;
@@ -46,7 +46,7 @@ function generateTeamCard(teamMember) {
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${teamMember.getId()}</li>
-                        <li class="list-group-item">Email: ${teamMember.getEmail()}</li>
+                        <li class="list-group-item">Email: <a href="mailto:${teamMember.getEmail()}">${teamMember.getEmail()}</a></li>
                         ${lineItem}
                     </ul>
                 </div>

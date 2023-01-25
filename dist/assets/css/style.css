@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
-    --beige: rgb(249, 235, 200);
     --light: rgb(254, 251, 231);
     --green: rgb(218, 229, 208);
     --blue: rgb(160, 188, 194);
@@ -17,6 +16,7 @@ body {
 .header {
     background-color: var(--green);
     padding: 15px;
+    width: 100%;
 }
 .title {
     text-align: center;
@@ -35,12 +35,13 @@ body {
 .card {
     align-items: center;
     text-align: center;
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
     margin: 15px;
-    height: 350px;
+    height: 325px;
     width: 375px;
     padding: 5px;
-    font-size: 26px;
+    font-size: 24px;
     box-shadow: 0 0 20px 0px rgba(65, 65, 65, 0.2);
     justify-content: space-evenly;
 }
@@ -51,6 +52,12 @@ body {
 }
 .list-group-item {
     text-align: left;
+}
+li a {
+    color: var(--blue);
+}
+li a:hover {
+    color: var(--green);
 }
 @media (min-width: 576px) {
     .title {
