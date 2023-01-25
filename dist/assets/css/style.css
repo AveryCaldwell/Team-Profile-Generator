@@ -41,13 +41,13 @@ body {
     height: 325px;
     width: 375px;
     padding: 5px;
-    font-size: 24px;
+    font-size: 20px;
     box-shadow: 0 0 20px 0px rgba(65, 65, 65, 0.2);
     justify-content: space-evenly;
 }
 
 .card-title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bolder;
 }
 .list-group-item {
