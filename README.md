@@ -53,14 +53,14 @@ THEN I exit the application, and the HTML is generated
 
 ### Screenshot 📷
 ​
-![](./TBD)
+![](./dist/assets/images/screenshot.png)
 ​
 ​
 ### Links 📎
 ​
 - Solution URL: [https://github.com/AveryCaldwell/Team-Profile-Generator](https://github.com/AveryCaldwell/Team-Profile-Generator)
 - Video URL: [TBD](TBD)
-- Sample HTML File: [TBD](TBD)
+- Sample HTML File: [https://github.com/AveryCaldwell/Team-Profile-Generator/blob/main/dist/index.html](https://github.com/AveryCaldwell/Team-Profile-Generator/blob/main/dist/index.html)
 
 <br>
 <hr>
