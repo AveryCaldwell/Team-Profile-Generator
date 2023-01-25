@@ -8,6 +8,7 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const generateTeam = require('./src/template.js');
 
+// Function that inserts data into generated file unless there is an error
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
@@ -22,6 +23,7 @@ const writeDoc = (documentTemplate) => {
     writeToFile('./dist/index.html', documentTemplate);
 };
 
+// Function that returns questions based on memberRole
 function teamQuestions(memberRole) {
     memberObj = {
         Manager: {
@@ -66,6 +68,7 @@ function teamQuestions(memberRole) {
         },
     ];
 }
+// Fuction to add a new team member
 function newTeamEntry(memberRole) {
     inquirer
         .prompt(teamQuestions(memberRole))
@@ -105,6 +108,7 @@ function newTeamEntry(memberRole) {
         });
 }
 let data = [];
+
 // Function to initialize app
 function init() {
     inquirer
