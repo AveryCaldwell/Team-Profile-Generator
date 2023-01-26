@@ -70,7 +70,8 @@ THEN I exit the application, and the HTML is generated
 ## 💡 My process 
 
 ### 🔨 Built with 
-
+- HTML
+- CSS
 - JavaScript
 - Node.js
 - Inquirer
