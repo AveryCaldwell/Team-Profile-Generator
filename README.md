@@ -1,4 +1,4 @@
-# Team Profile Generator 📋
+# 📋 Team Profile Generator 
 
 <br>
 
@@ -16,7 +16,7 @@
 <hr>
 <br>
 
-# Overview 📁
+# 📁 Overview 
 
 ## **The Challenge**
 
@@ -51,12 +51,12 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
-### Screenshot 📷
+### 📷 Screenshot 
 ​
 ![](./dist/assets/images/screenshot.png)
 ​
 ​
-### Links 📎
+### 📎 Links 
 ​
 - Solution URL: [https://github.com/AveryCaldwell/Team-Profile-Generator](https://github.com/AveryCaldwell/Team-Profile-Generator)
 - Video URL: [https://drive.google.com/file/d/1Y1BxdDhGIa6eY4UsD9mmbSgIKfIHJIZq/view](https://drive.google.com/file/d/1Y1BxdDhGIa6eY4UsD9mmbSgIKfIHJIZq/view)
@@ -67,9 +67,9 @@ THEN I exit the application, and the HTML is generated
 <br>
 
 
-## My process 💡
+## 💡 My process 
 
-### Built with 🔨
+### 🔨 Built with 
 
 - JavaScript
 - Node.js
@@ -78,7 +78,7 @@ THEN I exit the application, and the HTML is generated
 
 <br>
 
-### Useful resources 📚
+### 📚 Useful resources 
 
 - Inquirer Package - [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 - Jest Package - [Jest package](https://www.npmjs.com/package/jest) 
@@ -88,6 +88,6 @@ THEN I exit the application, and the HTML is generated
 
 <br>
 
-## Author ✏️
-  Avery Caldwell
+## ✏️ Author 
+- Avery Caldwell
 - GitHub - [AveryCaldwell](https://github.com/AveryCaldwell)
