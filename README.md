@@ -59,7 +59,7 @@ THEN I exit the application, and the HTML is generated
 ### Links 📎
 ​
 - Solution URL: [https://github.com/AveryCaldwell/Team-Profile-Generator](https://github.com/AveryCaldwell/Team-Profile-Generator)
-- Video URL: [TBD](TBD)
+- Video URL: [https://drive.google.com/file/d/1Y1BxdDhGIa6eY4UsD9mmbSgIKfIHJIZq/view](https://drive.google.com/file/d/1Y1BxdDhGIa6eY4UsD9mmbSgIKfIHJIZq/view)
 - Sample HTML File: [https://github.com/AveryCaldwell/Team-Profile-Generator/blob/main/dist/index.html](https://github.com/AveryCaldwell/Team-Profile-Generator/blob/main/dist/index.html)
 
 <br>

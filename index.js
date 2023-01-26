@@ -114,7 +114,7 @@ function init() {
     inquirer
         .prompt(teamQuestions('Manager'))
         .then((answers) => {
-            console.log(answers);
+            // console.log(answers);
             data.push(
                 new Manager(
                     answers.name,
