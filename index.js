@@ -68,7 +68,7 @@ function teamQuestions(memberRole) {
         },
     ];
 }
-// Fuction to add a new team member
+// Fuction to add a new team member (intern or engineer)
 function newTeamEntry(memberRole) {
     inquirer
         .prompt(teamQuestions(memberRole))
@@ -92,6 +92,7 @@ function newTeamEntry(memberRole) {
                     )
                 );
             }
+            // When "no" is selected, the HTML file is generated with the data submitted
             if (answers.addMember !== 'No (Finalize Team)') {
                 newTeamEntry(answers.addMember);
             } else {
