@@ -8,8 +8,8 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [User Experience](#user-experience)
   - [Built with](#built-with)
+  - [User experience](#user-experience)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
