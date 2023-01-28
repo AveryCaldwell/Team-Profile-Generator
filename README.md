@@ -2,7 +2,7 @@
 
 <br>
 
-## Table of contents
+## 🗂️ Table of contents
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
@@ -24,7 +24,7 @@
 
 # 📁 Overview 
 
-## **The Challenge**
+## 📢 **The Challenge**
 
 ​
 ## User Story
@@ -57,7 +57,7 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
 
-### 📷 Screenshot 
+### 📸 Screenshot 
 ​
 ![](./dist/assets/images/screenshot.png)
 ​
