@@ -16,6 +16,12 @@
 <hr>
 <br>
 
+# 📝Description
+- an application that generates a webpage that displays a team's basic info for quick access to emails and GitHub profiles
+
+<br>
+<br>
+
 # 📁 Overview 
 
 ## **The Challenge**
