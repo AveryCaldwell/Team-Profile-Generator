@@ -88,10 +88,10 @@ THEN I exit the application, and the HTML is generated
 
 ### 👤 User Experience
 - Please see the [WalkThough Video](https://drive.google.com/file/d/1Y1BxdDhGIa6eY4UsD9mmbSgIKfIHJIZq/view) for a visual demonstration on how to use the app.
-- Because this app will require the use of the Inquirer package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your project folder: `npm i inquirer@8.2.4.`
-- The application will be invoked by using the following command: `node index.js`
-- When prompted for team members, enter their information
-- Then an HTML file is generated that displays a nicely formated team roster based on user input
+1. Because this app will require the use of the Inquirer package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your project folder: `npm i inquirer@8.2.4.`
+2. The application will be invoked by using the following command: `node index.js`
+3. When prompted for team members, enter their information.
+4. Then an HTML file is generated that displays a nicely formated team roster based on user input.
 
 <br>
 
