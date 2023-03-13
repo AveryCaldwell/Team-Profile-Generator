@@ -12,6 +12,7 @@
   - [User experience](#user-experience)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+   - [Grade](#grade)
 
 <br>
 <hr>
@@ -108,3 +109,7 @@ THEN I exit the application, and the HTML is generated
 ## ✏️ Author 
 - Avery Caldwell
 - GitHub - [AveryCaldwell](https://github.com/AveryCaldwell)
+
+<br>
+
+ ### Grade - 100/100
